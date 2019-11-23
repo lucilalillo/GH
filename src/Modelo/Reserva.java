@@ -13,14 +13,15 @@ import java.time.LocalDate;
  */
 public class Reserva {
     private Huesped huesped;
-    private int cantPers, habitacion;
+    private int cantPers;
+    private Habitacion numero;
     private LocalDate fechaIng, fechaEg;
     private double importe;
 
-    public Reserva(Huesped huesped, int cantPers, int habitacion, LocalDate fechaIng, LocalDate fechaEg, double importe) {
+    public Reserva(Huesped huesped, int cantPers, Habitacion numero, LocalDate fechaIng, LocalDate fechaEg, double importe) {
         this.huesped = huesped;
         this.cantPers = cantPers;
-        this.habitacion = habitacion;
+        this.numero= numero;
         this.fechaIng = fechaIng;
         this.fechaEg = fechaEg;
         this.importe = importe;
@@ -46,13 +47,15 @@ public class Reserva {
         this.cantPers = cantPers;
     }
 
-    public int getHabitacion() {
-        return habitacion;
+    public Habitacion getNumero() {
+        return numero;
     }
 
-    public void setHabitacion(int habitacion) {
-        this.habitacion = habitacion;
+    public void setNumero(Habitacion numero) {
+        this.numero = numero;
     }
+
+    
 
     public LocalDate getFechaIng() {
         return fechaIng;

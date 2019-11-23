@@ -16,7 +16,7 @@ public class TipoCama {
     public TipoCama() {
     }
     
-    
+
     public TipoCama(int idTipoCama, String tipo) {
         this.idTipoCama = idTipoCama;
         this.tipo = tipo;

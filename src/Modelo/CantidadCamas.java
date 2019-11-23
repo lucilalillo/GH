@@ -10,6 +10,7 @@ package Modelo;
  * @author alumno
  */
 public class CantidadCamas {
+
     private TipoHabitacion tipoHabitacion;
     private TipoCama tipoCama;
     private int cant;
@@ -38,7 +39,10 @@ public class CantidadCamas {
 
     public void setTipoCama(TipoCama tipoCama) {
         this.tipoCama = tipoCama;
+     
+   
     }
+
 
     public int getCant() {
         return cant;

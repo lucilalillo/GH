@@ -10,6 +10,7 @@ package Modelo;
  * @author alumno
  */
 public class Habitacion {
+
     private int numero, piso;
     private String estado;
     private String tipoHabitacion;
@@ -62,7 +63,5 @@ public class Habitacion {
     public void setTipoHabitacion(String tipoHabitacion) {
         this.tipoHabitacion = tipoHabitacion;
     }
-
-    
     
 }

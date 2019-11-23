@@ -10,6 +10,7 @@ package Modelo;
  * @author alumno
  */
 public class Huesped {
+
     private int id_Huesped;
     private String nombre;
     private String domicilio;
@@ -85,6 +86,4 @@ public class Huesped {
         this.correo = correo;
     }
 
-   
-    
-}
+} 
